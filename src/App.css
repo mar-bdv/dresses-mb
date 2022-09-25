@@ -1,38 +1,117 @@
-.App {
-  text-align: center;
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.image-top{
+  width: 500px;
+  margin: 50px;
+  border-radius: 20px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container-top{
+  display: flex;
+  justify-content: space-around;
+  background-color: #7d73ba;
+  min-height: 90vh;
+  
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container-top-text{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  margin-top: 100px;
+}
+h1{
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #332f4b;
+}
+.container-top-text h2{
+  color: #332f4b;
+  font-size: 40px;
+}
+.btn-top{
+  background-color: #7c73ba00;
+  border: 1px solid #332f4b;
+  color: #332f4b;
+  padding: 20px 50px;
+  width: 300px;
+  font-size: 30px;
+  margin-top: 100px;
+}
+.h-container, .center{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.container-text{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+}
+.container-center{
+  background-color: #d7a4c3c1;
+}
+.container-text p{
+  font-size: 20px;
+  width: 500px;
+  margin: 50px;
+}
+.head-container{
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  color: #332f4b;
 }
 
-.App-link {
-  color: #61dafb;
+.img-par{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 45px;
+  align-items: center;
+  text-align: center;
+}
+.mini-div{
+  margin: 30px;
+}
+.btn-imgPar{
+  border: 1px solid #7d73ba;
+  background-color: white;
+  color: #7d73ba;
+  font-size: 20px;
+  padding: 10px 20px;
+  margin-bottom: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h3{
+  color: #332f4b;
+}
+.btn-direction{
+  border: 1px solid #7d73ba;
+  background-color: white;
+  color: #7d73ba;
+  font-size: 20px;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  margin: 10px;
+}
+.testimonials{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #7d73ba;
+  padding: 20px;
+}
+.testimonials h3{
+  font-size: 35px;
+  color: #332f4b;
+  
+}
+.person-div{
+  display: flex;
+  flex-direction: column;
+}
+.buttons-testim{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
