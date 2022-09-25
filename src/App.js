@@ -12,7 +12,7 @@ function App() {
     setDresess(newDress)
   } 
   const [person, setPerson] = useState(0);
-  const {idSlides, nameS, text, imageS} = slides[person];
+  const { nameS, text, imageS} = slides[person];
   
 
   const previousBtn = () =>{
