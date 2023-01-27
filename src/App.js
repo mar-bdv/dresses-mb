@@ -16,7 +16,7 @@ function App() {
   
 
   const previousBtn = () =>{
-    setPerson((person => {
+    setPerson((person  => {
       person--;
       if(person < 0){
         return slides.length-1;
